@@ -8,7 +8,8 @@ Header nav li {
   display: inline; }
   Header nav li a {
     color: #8F8F8F;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif; }
 
 #tim-nav1 {
   width: 60%;
@@ -24,6 +25,8 @@ Header nav li {
     -moz-padding: 0 2%;
     -ms-padding: 0 2%;
     padding: 0 2%; }
+    #tim-nav1 li a {
+      font-weight: 400; }
 
 #tim-nav2 {
   text-transform: uppercase;

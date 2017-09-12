@@ -29,6 +29,7 @@ Header {
 			a {
 				color: $Dgrey;
 			    text-decoration: none;
+                font-family: 'Open Sans', sans-serif;
 			}
 		}
 	}
@@ -42,6 +43,9 @@ Header {
 	@include padding(0 0 2% 0);
 	li {
 			@include padding(0 2%);
+			a{
+				font-weight: 400;
+	         }
 	}
 }
 
