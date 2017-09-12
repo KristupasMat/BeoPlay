@@ -10,6 +10,8 @@ Header nav li {
     color: #8F8F8F;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif; }
+  Header nav li a:hover {
+    color: #3f3f3f; }
 
 #tim-nav1 {
   width: 60%;
