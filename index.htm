@@ -3,7 +3,16 @@
 	<head>
 		<title>BeoPlay A2</title>
 		<link rel="icon" href="images/favicon.png"/>
+
+        <link rel="stylesheet" type="text/css" href="css/dannyStylesheet.css">
+
+        <link rel="stylesheet" href="css/chris.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans" rel="stylesheet">
+		<link href="./css/niko.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/chris.css">
 		<link rel="stylesheet" href="css/tim.css">
+
 	</head>
 	
 	<body>
@@ -39,8 +48,8 @@
 		</main>
 
 
-		<nav>
-			<ul>
+		<nav class="secondNav">
+			<ul id="topNav">
 				<li><a href="#">Sign up for B&O PLAY news</a></li>
 				<li><a href="#">Find store</a></li>
 				<li><a href="#">Support</a></li>
@@ -48,14 +57,14 @@
 				<li><a href="#">Press</a></li>
 				<li><a href="#">About</a></li>
 				<label>Shipping:</label>
-				<select>
+				<select id="dropDown">
 					<option value="dk">Denmark</option>
 					<option value="uk">United Kingdom</option>
 					<option value="de">Germany</option>
 				</select>
 			</ul>
 
-			<ul>
+			<ul id="bottomNav">
 				<li><a href="#">Privacy Policy</a></li>
 				<li><a href="#">Terms & Conditions</a></li>
 				<li><a href="#">Limited Warranty</a></li>
@@ -63,27 +72,33 @@
 			</ul>
 		</nav>
 		
-		<section>
-			<p>"Just the two of us"</p>
-			<a href="#">Click and listen to B&O Play's Spotify for the perfect tunes.</a>
+		<section class="section">
+			<p class="section__p">"Just the two of us"</p>
+			<a href="#" class="section__a">Click and listen to B&O Play's Spotify for the perfect tunes.</a>
 		</section>
 		
-		<footer>
-			<p>&copy; B&O PLAY 2015	B&O</p> 
-			<p>play is a proud member of the</p> 
-			<a href="#">bang & olufsen group</a>
-			<p>CVR. 33859643</p>
-			<p>Peter Bangs Vej 15 DK-7600 Struer</p>
-			<p><a href="mailto:salessupport@beoplay.com">salessupport@beoplay.com</a></p>
+		<footer class="footer">
+			<p class="footer__p">&copy; B&O PLAY 2015	B&O</p> 
+			<p class="footer__p">play is a proud member of the</p> 
+			<a href="#" class="footer__a footer__a--underline">BANG & OLUFSEN GROUP</a>
+			<p class="footer__p">CVR. 33859643</p>
+			<p class="footer__p">Peter Bangs Vej 15 DK-7600 Struer</p>
+			<p class="footer__p"><a href="mailto:salessupport@beoplay.com" class="footer__a">salessupport@beoplay.com</a></p>
 		</footer>
 		
-		<aside id="modal-box">
-			<button>X</button>
-			<img src="images/modal.png">
-			<p>Sign up and win the new BeoPlay H7</p>
+		<aside id="popup" class="popup">
+			<button class="popup--button" onclick="hideAdd()">X</button>
+			<img class="popup--image" src="images/modal.png">
+			<p class="popup--header">Sign up and win the new BeoPlay H7</p>
 			<p>We'll draw a winner at random. The competition ends April 31, 2016 at 10:00 CET.</p>
-			<a href="#">Sign up</a>
+			<a class="popup--link" href="#">Sign up</a>
 		</aside>
 
+        <script>
+            function hideAdd() {
+            var elem = document.getElementById("popup");
+            elem.style.display = "none";
+            }
+        </script>
 	</body>
 </html>

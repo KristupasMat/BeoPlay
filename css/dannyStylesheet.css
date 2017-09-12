@@ -1,0 +1,33 @@
+.popup {
+  width: 50%;
+  color: #bcb2a5;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white; }
+
+.popup--image {
+  float: left;
+  margin-right: 10px; }
+
+.popup--button {
+  color: white;
+  background-color: #4f4f4f;
+  border-radius: 50px;
+  position: absolute;
+  top: -10px;
+  left: -10px; }
+
+.popup--header {
+  font-size: 1.5em; }
+
+.popup--link {
+  color: white;
+  background-color: #bcb2a5;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 1% 15% 1% 15%; }
+
+/*# sourceMappingURL=dannyStylesheet.css.map */
