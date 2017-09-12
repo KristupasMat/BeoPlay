@@ -59,4 +59,26 @@ Header nav li {
     #tim-nav2 li button:hover {
       background-color: #8F8F8F; }
 
+article {
+  background-color: #f1f1f1; }
+
+article img {
+  margin-left: 20%; }
+
+article h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #666666;
+  margin-left: 60%;
+  font-size: 30px;
+  margin-top: -19%; }
+
+article p {
+  font-family: "Open Sans", sans-serif;
+  color: #9d9d9d;
+  margin-left: 60%;
+  width: 15%; }
+
+.articlepadding {
+  padding-bottom: 10%; }
+
 /*# sourceMappingURL=tim.css.map */
