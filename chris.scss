@@ -1,0 +1,52 @@
+// * Styles for the secondary Navigation
+
+$backgroundColor: #292929;
+$topNavColor: #b2b2b2;
+$bottomNavColor: #ffffff;
+$dropdownColor: #181818;
+
+
+nav.secondNav {
+    background-color: $backgroundColor;
+    text-align: center;
+    a {
+        text-decoration: none;
+    }
+    ul#topNav {
+        padding: 1em;
+        border-bottom: solid 1px $topNavColor;
+        margin: 0;
+        li {
+            display: inline-block;
+            a {
+                color: $topNavColor;
+                margin:1.5em;
+            }
+        } 
+        label {
+            color: $topNavColor;
+            margin:1.5em;
+        }
+        select#dropDown {
+            background-color: $dropdownColor;
+            color: $topNavColor;
+            width: 170px;
+            padding: 0.2em 0.8em 0.2em 0.8em;
+            border-radius: 10px;
+            border: none;
+            
+        }
+    }
+    ul#bottomNav {
+        text-align: center;
+        li {
+            display: inline-block;
+            margin-bottom: 1em;
+            a {
+                color: $bottomNavColor;
+                padding: 0 2.5em 0 2.5em;
+                font-size: 14px;
+            }
+        }
+    }
+}
