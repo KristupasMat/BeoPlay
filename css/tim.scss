@@ -1,6 +1,7 @@
 /* Scss Document */
 $Dgrey: #8F8F8F;
 $Lgrey: #f1f1f1;
+$DDgrey:#3f3f3f;
 
 @mixin padding($padding) {
   -webkit-padding: $padding;
@@ -31,6 +32,9 @@ Header {
 			    text-decoration: none;
                 font-family: 'Open Sans', sans-serif;
 			}
+			a:hover {
+				color: $DDgrey;
+			}
 		}
 	}
 }
@@ -60,7 +64,7 @@ Header {
 		}
 		button {
 			@include border-radius(20px); 
-			background-color: #3f3f3f;
+			background-color: $DDgrey;
 			color: white;
 			@include padding(0.4% 1%);
 			border: none;
